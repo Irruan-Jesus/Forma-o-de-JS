@@ -3,7 +3,7 @@ const pessoa = {
     idade: 24,
 
     descrever: function( ) {
-        console.log(`Mue nome é ${this.nome} e minha idade é ${this.idade}`);
+        console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);
     } 
 
 };
