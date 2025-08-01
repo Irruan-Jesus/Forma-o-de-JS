@@ -9,8 +9,8 @@ class Carros{
         this.litroPorKm=litroPorKm;
     }
 
-   calcularGastoPorViagem(precoCombustivel,distanciaEmKm){
-        return (precoCombustivel*this.litroPorKm)*distanciaEmKm
+   calcularGastoPorViagem(precoCombustivel,distanciaEmKm){        //metodo que caulcula o gasto por viagem
+        return (precoCombustivel*this.litroPorKm)*distanciaEmKm   //considerando o atributo de litro gasto por km rodado do carro
     }
 
 
