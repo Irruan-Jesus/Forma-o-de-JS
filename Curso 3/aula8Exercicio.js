@@ -10,18 +10,18 @@ constructor(nome,altura,peso){
 }
 
 calcularIMC(){
-  return this.peso /(this.altura * this.altura);
+  return this.peso /(this.altura * this.altura); //calcula o IMC
 }
 
 FalarIMC(){
     const calculo = this.calcularIMC()
-    console.log(`Olá meu nome é ${this.nome} meu IMC é ${calculo.toFixed(2)}`); 
+    console.log(`Olá meu nome é ${this.nome} meu IMC é ${calculo.toFixed(2)}`); //metodo responsavel por falar o IMC
 }
 
 classificarIMC(){
 const imc = this.calcularIMC()
 if (imc< 18.5){
-    return('Abaixo do peso');
+    return('Abaixo do peso'); //Responsavel por classificar com base no resultado da função classificar, a função está sendo atribuida a uma variavel.
 }
 else if (imc >= 18.50 && imc <=25){
     return('Peso Normal');
